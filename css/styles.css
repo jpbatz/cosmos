@@ -13,9 +13,11 @@ body {
 
 h1 {
   color: #3D6D56;
-  font-size: 100px;
+  opacity: 0.5;
+  font-size: 200px;
   text-align: center;
   font-style: italic;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -23,9 +25,11 @@ h2 {
   text-align: center;
   text-decoration: underline;
   font-style: italic;
-  font-size: 28px;
+  font-size: 30px;
   color: #BFAA7E;
   text-decoration: none;
+  border-top: 1px solid #3D6D56;
+  padding-top: 50px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -58,13 +62,31 @@ nav>ul>li>ul>li {
 
 nav ul li a {
   text-decoration: none;
+  font-size: 20px;
   color: white;
   opacity: 0.5;
+  transition: font-size 0.5s ease;
 }
 
-a:hover {
-  font-size: 20px;
+ul#main_nav>li>a:hover {
+  font-size: 30px;
   color: #BFAA7E;
+  transition: font-size 0.5s ease;
+}
+
+/*testing drop down transition, Chrome and Safari*/
+ul#main_nav>li.has_dropdown:hover>ul {
+  /*background-color: red;*/
+  font-size: 30px;
+  color: #BFAA7E;
+  transition: font-size 0.5s ease;
+}
+
+ul#sub_nav>li.nav_item>a:hover {
+  background-color: purple;
+  font-size: 30px;
+  color: #BFAA7E;
+  transition: font-size 0.5s ease;
 }
 
 nav ul#main_nav > li.has_dropdown > ul#sub_nav {
@@ -85,8 +107,11 @@ section {
 h3, h4 {
   margin-top: 100px;
   text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
   font-size: 28px;
   color: #BFAA7E;
+  opacity: 0.7;
 }
 
 /*h4 {
@@ -97,16 +122,16 @@ h3, h4 {
 }*/
 
 p {
-  font-family: 'Dancing Script', cursive;
+  font-family: sans-serif;
   line-height: 2em;
   font-size: 24px;
-  font-weight: bold;
   margin: 50px;
   margin-left: 150px;
   margin-right: 150px;
   line-height: 2.0;
   color: #BFAA7E;
-  /*opacity: 0.52;*/
+  opacity: 0.6;
+  text-indent: 2.5em;
 }
 
 aside {
@@ -116,7 +141,7 @@ aside {
 /*Footer*/
 
 footer {
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
   font-variant: small-caps;
   color: #BFAA7E;
