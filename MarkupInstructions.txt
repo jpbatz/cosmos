@@ -34,3 +34,32 @@
     
     Advanced: Make a dropdown nav. (No copying from the internet!)
     Superadvanced: Make a fancy dropdown nav with an animation/transition.
+
+    4.  [ NEW BRANCH ] Multi-Column Layouts
+    - remove all padding, border, and margin styles from <section> and <aside>
+    - Add a clearfix hack to the top of your stylesheet.
+    - Add markup to your index.html to make sure <section> and <aside> are contained inside a parent div.
+    - Apply the clearfix hack to the parent div.
+    - Make the a 2-column layout.
+    
+5.  [ NEW BRANCH ] Mobile-Responsive Layouts (using media queries)
+    - add the viewport meta tag in the head of your html markup:
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    - add media query ranges to the end of your styles.css file:
+    
+    /* MOBILE ONLY */
+    @media only screen and (max-width: 480px){
+    
+    }
+    
+    /* TABLET ONLY */
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+    
+    }
+    
+    /* DESKTOP ONLY */
+    @media only screen and (min-width: 769px){
+    
+    }
+    
+    - create media-specific styles for each media range.
