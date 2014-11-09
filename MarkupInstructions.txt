@@ -1,16 +1,16 @@
 1.  Finish "Out of this World" markup.
  
 2.  Styles
-    Create a directory called /stylesheets
-    In your /stylesheets directory, create a stylesheet called styles.css
-    In your index.html, link to your styles.css.
+    x Create a directory called /stylesheets
+    x In your /stylesheets directory, create a stylesheet called styles.css
+    x In your index.html, link to your styles.css.
     
     Style the layout (do not touch the markup[HTML]).
     
     
     You can use my example as a guideline, or your own images/styles.
-    - use at least 1 Google font in your document.
-    - use at least 1 background image
+    x- use at least 1 Google font in your document.
+    x - use at least 1 background image
     - use a border somewhere
     - add some styles to some hover states of items
     - advanced: add animations/transitions
