@@ -3,8 +3,14 @@
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
+/*clearfix*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
-  /*background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_w9AWwd7boNUuGAb_rktB_jJI0TZ_D0K-Tlt9TWdhVlIwnEIh');*/
   background-image: url('http://www.psdgraphics.com/file/planet-earth-in-space.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,20 +27,17 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 h2 {
   text-align: center;
   text-decoration: underline;
   font-family: sans-serif;
-  font-style: italic;
   font-size: 30px;
   color: #BFAA7E;
   text-decoration: none;
-  border-top: 1px solid #3D6D56;
-  padding-top: 50px;
-  margin-top: 50px;
+  border-bottom: 1px solid #3D6D56;
+  padding-bottom: 50px;
   margin-bottom: 30px;
 }
 
@@ -42,11 +45,10 @@ h2 {
 
 nav {
   text-align: center;
-  border: 1px solid #3D6D56;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 li {
@@ -55,7 +57,6 @@ li {
   vertical-align: top;
   display: inline-block;
   font-size: 24px;
-  /*border: 1px solid yellow;*/
 }
 
 nav>ul>li>ul>li {
@@ -104,12 +105,37 @@ nav ul#main_nav > li.has_dropdown:hover > ul#sub_nav {
 
 /*Content*/
 
-section {
-  padding-top: 50px;
+#layout {
+  margin: 0px;
+  padding: 0px;
+  margin: auto;
+  max-width: 1200px;
 }
 
+#layout section {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 70%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#layout aside {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  width: 30%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/*section {
+  padding-top: 50px;
+}*/
+
 h3, h4 {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
@@ -128,26 +154,22 @@ h3, h4 {
 p {
   font-family: sans-serif;
   line-height: 2em;
-  font-size: 24px;
+  font-size: 20px;
   margin: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
-  line-height: 2.0;
+  line-height: 1.5;
   color: #BFAA7E;
   opacity: 0.9;
-  text-indent: 2.5em;
 }
 
-aside {
-
+aside p {
+  
 }
 
 /*Footer*/
-
 footer {
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
-  font-variant: small-caps;
+  font-variant: uppercase;
   color: #BFAA7E;
 }
