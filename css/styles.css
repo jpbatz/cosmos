@@ -9,6 +9,8 @@ body {
   background-size: cover;
 }
 
+/*Headings*/
+
 h1 {
   color: #3D6D56;
   font-size: 100px;
@@ -25,8 +27,10 @@ h2 {
   color: #BFAA7E;
   text-decoration: none;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
+/*Navigation*/
 
 nav {
   text-align: center;
@@ -40,13 +44,19 @@ nav {
 li {
   padding: 5px 50px;
   list-style-type: none;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 24px;
+  /*border: 1px solid yellow;*/
 }
 
-nav>ol>li>ol>li {
+nav>ul>li>ul>li {
   display: block;
+  font-size: 14px;
+  padding: 0px 0px;
 }
 
-nav ol li a {
+nav ul li a {
   text-decoration: none;
   color: white;
   opacity: 0.5;
@@ -56,6 +66,17 @@ a:hover {
   font-size: 20px;
   color: #BFAA7E;
 }
+
+nav ul#main_nav > li.has_dropdown > ul#sub_nav {
+  visibility: hidden;
+}
+
+nav ul#main_nav > li.has_dropdown:hover > ul#sub_nav {
+  visibility: visible;
+}
+
+
+/*Content*/
 
 section {
   padding-top: 50px;
@@ -91,6 +112,8 @@ p {
 aside {
 
 }
+
+/*Footer*/
 
 footer {
   margin-top: 200px;

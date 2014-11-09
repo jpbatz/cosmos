@@ -11,8 +11,26 @@
     You can use my example as a guideline, or your own images/styles.
     x- use at least 1 Google font in your document.
     x - use at least 1 background image
-    - use a border somewhere
-    - add some styles to some hover states of items
+    x - use a border somewhere
+    x - add some styles to some hover states of items
     - advanced: add animations/transitions
  
     Not allowed: Float Property.
+
+
+    Links to Images:
+
+    https://s3.amazonaws.com/uploads.hipchat.com/54891/839336/izh6wkhViIjdYPK/The%20Cosmos%21%20%281%29.png
+    https://s3.amazonaws.com/uploads.hipchat.com/54891/839336/7xnCvHKv2RtUof4/The%20Cosmos%21%20%282%29.png
+    https://s3.amazonaws.com/uploads.hipchat.com/54891/839336/xo8IXUd4c7PLMrr/The%20Cosmos%21%20%283%29.png
+    
+3.  Nav & Dropdown Subnav
+
+    x Create a new branch called 'subnav' (nav_section)
+
+    x Add a CSS Reset at the TOP of your styles.css (after the @import and before all your other code)
+
+    Style the Nav (you can adjust the markup if you need to)
+    
+    Advanced: Make a dropdown nav. (No copying from the internet!)
+    Superadvanced: Make a fancy dropdown nav with an animation/transition.
