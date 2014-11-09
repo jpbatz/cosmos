@@ -38,6 +38,15 @@
     4.  [ NEW BRANCH ] Multi-Column Layouts
     - remove all padding, border, and margin styles from <section> and <aside>
     - Add a clearfix hack to the top of your stylesheet.
-    - Add markup to your index.html to make sure <section> and <aside> are contained inside a parent div.
-    - Apply the clearfix hack to the parent div.
-    - Make the a 2-column layout.
+    - Add markup to your index.html to make sure <section> and <aside> are contained inside a parent div called #layout.
+    - Apply the clearfix hack to the parent div #layout.
+    - Make the a 2-column layout 
+        - your floating elements must have a width property[probably %], and a float property.
+        - make the floating elements have the box-sizing property of border-box.
+    
+    - Remember the Rules!
+        Rule #1: Don't mix floating and non-floating siblings (unless you are floating an image inside a block of text).
+        Rule #2: Floating things must have a width property & valye (usually %).
+        Rule #3: The parent of floating elements must have a clearfix class.
+    
+* Note: This is the "old-school" way of making multi-column layouts. There are new shinier ways to accomplish this now, however they work for IE10+ or have restrictions on their use. See flex-box layouts, and table layouts for these new, shinier methods.
