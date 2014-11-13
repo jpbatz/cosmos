@@ -116,7 +116,7 @@ nav ul#main_nav > li.has_dropdown:hover > ul#sub_nav {
   margin: 0px;
   padding: 0px;
   float: left;
-  width: 70%;
+  width: 60%;
   margin: auto;
   box-sizing: border-box;
 }
@@ -125,7 +125,7 @@ nav ul#main_nav > li.has_dropdown:hover > ul#sub_nav {
   margin: 0px;
   padding: 0px;
   float: right;
-  width: 30%;
+  width: 40%;
   margin: auto;
   box-sizing: border-box;
 }
