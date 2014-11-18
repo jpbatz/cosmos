@@ -24,20 +24,20 @@
     https://s3.amazonaws.com/uploads.hipchat.com/54891/839336/7xnCvHKv2RtUof4/The%20Cosmos%21%20%282%29.png
     https://s3.amazonaws.com/uploads.hipchat.com/54891/839336/xo8IXUd4c7PLMrr/The%20Cosmos%21%20%283%29.png
     
-3.  Nav & Dropdown Subnav
+3.  Nav & Dropdown Subnav (nav_section)
 
     x Create a new branch called 'subnav' (nav_section)
 
     x Add a CSS Reset at the TOP of your styles.css (after the @import and before all your other code)
 
-    Style the Nav (you can adjust the markup if you need to)
+    x Style the Nav (you can adjust the markup if you need to)
     
-    Advanced: Make a dropdown nav. (No copying from the internet!)
-    Superadvanced: Make a fancy dropdown nav with an animation/transition.
+    x Advanced: Make a dropdown nav. (No copying from the internet!)
+    x Superadvanced: Make a fancy dropdown nav with an animation/transition.
 
-4.  [ NEW BRANCH ] Multi-Column Layouts
-    - remove all padding, border, and margin styles from <section> and <aside>
-    - Add a clearfix hack to the top of your stylesheet.
-    - Add markup to your index.html to make sure <section> and <aside> are contained inside a parent div.
-    - Apply the clearfix hack to the parent div.
-    - Make the a 2-column layout.
+4.  [ NEW BRANCH ] Multi-Column Layouts (clearfix_branch)
+    x - remove all padding, border, and margin styles from <section> and <aside>
+    x - Add a clearfix hack to the top of your stylesheet.
+    x - Add markup to your index.html to make sure <section> and <aside> are contained inside a parent div.
+    x - Apply the clearfix hack to the parent div.
+    x - Make the a 2-column layout.
